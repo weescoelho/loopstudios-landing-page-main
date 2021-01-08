@@ -10,3 +10,16 @@ imagesGrid.forEach((image) =>{
     imageDescription.classList.remove('grid-hover')
   })
 })
+
+// Menu mobile
+
+const menuButton = document.querySelector('[data-menu="button"]');
+const menuList = document.querySelector('[data-menu="list"]');
+const iconMenuButton = document.querySelector('[data-menu="button"] img')
+
+function openMenu(event){
+  menuList.classList.toggle('active')
+  menuButton.classList.toggle('active')
+}
+menuButton.addEventListener('click', openMenu);
+

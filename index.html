@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu-mobile.css">
   <title>Frontend Mentor | Loopstudios landing page</title>
 </head>
 
@@ -16,8 +17,9 @@
   <header class="header">
     <div class="container navbar">
       <a href="#" class="brand"><img src="images/logo.svg" alt="Logo"></a>
+      <button data-menu="button" aria-expanded="false" aria-controls="menu"><img src="images/icon-hamburger.svg"></button>
       <nav class="nav-menu">
-        <ul>
+        <ul data-menu="list" id="menu">
           <li><a href="#">About</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#">Events</a></li>
