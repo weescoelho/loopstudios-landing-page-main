@@ -406,6 +406,10 @@ img{
   display: none;
 }
 
+.footer-mobile-version{
+  display: none;
+}
+
 @media(min-width: 739px) and (max-width:989px){
   .footer-mobile-version{
     display: none;
